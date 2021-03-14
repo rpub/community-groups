@@ -1,5 +1,5 @@
-John + Ann,
-Peter + Melissa
+John, Ann
+Peter, Melissa
 George
 Lisa
 Jenny
