@@ -1,56 +1,42 @@
 from os import name
 from igraph import *
 
-# g = Graph(vertex_attrs={"label": vertices}, edges=edges, directed=False)
+# Person class with init, repr, and str.
+class Person:
 
-class Person:   
-    def __init__(self, *inp):
-        if len(inp) == 1:
-            self.name = inp
-            is_couple = 'Single';
+    # This modification only keeps track of the name of the person/couple as one string,
+    # and whether or not they are a couple. This avoids extra checks and we can still print the same.
+    def __init__(self, name, couple):
+        self.name = name
+        self.couple = couple
 
-        elif len(inp) == 2:
-            self.name1 = inp[0]
-            self.name2 = inp[1]
-            is_couple = 'Married';
+    def __repr__(self):
+        return repr(self.name, self.couple)
 
-        def __repr__(self):
-            if self.name1 & self.name2:
-                return repr((self.name1, self.name2))
-            elif self.name1:
-                return repr((self.name1))
+    def __str__(self):
+        return self.name
 
-        def __str__(self):
-            if self.name1 & self.name2:
-                return "Married: {John}, {Marie}".format(self.name1, self.name2)
-            elif self.name1:
-                return "Single: {John}".format(self.name1)
+people = [] # Defining an empty list.
 
-        # ^^^^^^^ code above and below under open doesn't work - but very close to working
-
-people = []
-
+# Reading the file and building a list of people.
 with open("group1.txt") as file:
     for line in file:
         if ',' in line:
-            p1, p2, = line.split(',')
-            print(p1, p2)
-            person = Person(p1, p2)
+            person = Person(line, True)
         else:
-            p1 = line
-            print(p1)
-            person = Person(p1)
+            person = Person(line, False)
         
         people.append(person)
+        print(person) # Printing each person (for testing).
 
-print(people)
+# Test print the entire list again.
+for p in people:
+    print(p)
 
-# ------------------ This part below works
-
-vertices = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
+# Quitting early to focus on the top part.
+quit()
 
 g = Graph(directed=True)
-g.add_vertices(vertices)
 g.vs["is_host"] = [False, False, False, False, False, False, False, False, False, False, False, False]
 g.vs["is_couple"] = [False, False, False, False, False, False, False, False, False, False, False, False]
 g.vs["is_busy"] = [False, False, False, False, False, False, False, False, False, False, False, False]
@@ -64,13 +50,12 @@ for s in g.vs:
     for v in g.vs:
         if s != v: 
             g.add_edges([(v, s)])
-plot(g)
 
 for s in g.vs:
     for e in g.es:
         g.es.select(_source=s)
 
-print(g)
+# print(g)
 
 # 			If N is NOT busy AND N is hosting fewer than MAX:
 # 				If N is not hosting N:
