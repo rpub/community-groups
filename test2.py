@@ -16,7 +16,8 @@ class Person:
     def __str__(self):
         return self.name
 
-people = [] # Defining an empty list.
+# Defining variables.
+people = []
 
 # Reading the file and building a list of people.
 with open("group1.txt") as file:
@@ -25,22 +26,27 @@ with open("group1.txt") as file:
             person = Person(line, True)
         else:
             person = Person(line, False)
-        
         people.append(person)
-        print(person) # Printing each person (for testing).
 
-# Test print the entire list again.
-for p in people:
-    print(p)
+# Build the initial graph based on the people list.
+g = Graph(directed=True)
+g.add_vertices(len(people))
+for i in range(len(people)):
+    g.vs(i)["household"] = people[i]
+    g.vs(i)["label"] = people[i].name
+print(g)
+
+# Printing every household in the graph.
+# s["household"] should contain the Person attached to the vertex.
+# print calls the __str__ method of Person so it shows Person.name.
+for s in g.vs:
+    print(s["household"])
 
 # Quitting early to focus on the top part.
 quit()
 
-g = Graph(directed=True)
-g.vs["is_host"] = [False, False, False, False, False, False, False, False, False, False, False, False]
-g.vs["is_couple"] = [False, False, False, False, False, False, False, False, False, False, False, False]
-g.vs["is_busy"] = [False, False, False, False, False, False, False, False, False, False, False, False]
-g.vs["label"] = g.vs["name"]
+
+# g.vs["label"] = g.vs["name"]
 
 i = 0
 m = 0
