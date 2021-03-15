@@ -23,24 +23,39 @@ people = []
 with open("group1.txt") as file:
     for line in file:
         if ',' in line:
-            person = Person(line, True)
+            household = Person(line, True)
         else:
-            person = Person(line, False)
-        people.append(person)
+            household = Person(line, False)
+        people.append(household)
 
 # Build the initial graph based on the people list.
 g = Graph(directed=True)
 g.add_vertices(len(people))
 for i in range(len(people)):
-    g.vs(i)["household"] = people[i]
-    g.vs(i)["label"] = people[i].name
-print(g)
+    s = g.vs[i]
+    s["household"] = people[i]
+    s["label"] = people[i].name
 
-# Printing every household in the graph.
-# s["household"] should contain the Person attached to the vertex.
-# print calls the __str__ method of Person so it shows Person.name.
+# Defining default attributes of every node.
 for s in g.vs:
-    print(s["household"])
+    s["busy"] = False
+    s["host"] = False
+
+# Build every edge of the complete graph.
+for s in g.vs:
+    for v in g.vs:
+        if s != v: 
+            g.add_edges([(v, s)])
+
+# For every edge of each node s.       
+for s in g.vs:
+    # print(s)
+    if s["host"] == False:
+        for v in g.neighbors(v, mode=ALL)
+            print(v)
+            # if v["busy"] == False:
+            #     s["busy"] = True
+            #     v["host"] = True
 
 # Quitting early to focus on the top part.
 quit()
@@ -52,10 +67,7 @@ i = 0
 m = 0
 group_size = 4
 
-for s in g.vs:
-    for v in g.vs:
-        if s != v: 
-            g.add_edges([(v, s)])
+
 
 for s in g.vs:
     for e in g.es:
