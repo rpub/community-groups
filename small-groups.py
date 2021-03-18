@@ -1,5 +1,8 @@
-from os import name
+from os import name, system
 import networkx as nx
+
+import numpy as np
+# import matplotlib.pyplot as plt
 
 # Person class with init, repr, and str.
 class Person:
@@ -33,18 +36,20 @@ class Person:
         self.busy = False
         self.hosting = []
         self.host_count = 0
-    
+
 # Defining variables.
-group_size = 3;
-filename = "group2.txt"
+# group_size = 3;
+# filename = "group2.txt"
 
 G = nx.DiGraph()
 week = 1
 repeat_visits = []
 
+file_name = input("Please enter your plaintext file with smallgroup names: ")
+open(file_name, "r")
+
 # Reading the input file.
-# TODO Get user input for filename and group_size. ------------------------------------------------------
-with open(filename) as file:
+with open(file_name) as file:
     lines = file.read().splitlines()
     for L in lines:
         L = L.replace(", ", " + ")
@@ -53,6 +58,8 @@ with open(filename) as file:
         else:
             P = Person(L, False)
         G.add_node(P)
+
+group_size = int(input("What is the group size? (no more than half # of people)"))
 
 # Build every edge of the complete graph.
 for s in G.nodes():
@@ -73,7 +80,7 @@ while G.number_of_edges() > 0:
                 v.hosts(s)
                 G.remove_edge(s, v)
                 break
-
+            
     # Assigning repeated visitors (not required connections).
     for s in G.nodes():
         if not s.busy and not s.hosting:
@@ -82,18 +89,23 @@ while G.number_of_edges() > 0:
                     v.hosts(s)
                     repeat_visits.append(s)
                     break
-    
-    # Showing the hosts for this week.
-    # TODO: Improve the text formatting. (Optional) ------------------------------------------------------
-    # TODO: Show the graphical visualization. (Extra Credit)----------------------------------------------
-    for s in G.nodes():
-        if (s.hosting):
-            print(s.hosting[0], s.hosting[1:])
-        s.reset()
+        
+    with open('small.txt', 'w') as fileout:  
+        fileout.write(str(week))
+        for s in G.nodes():
+            if (s.hosting):
+                fileout.write("-".join(s.hosting[0], s.hosting[1:]))
+            s.reset()
+
+    # # Showing the hosts for this week.
+    # for s in G.nodes():
+    #     if (s.hosting):
+    #         print(str(s.hosting[0], s.hosting[1:]))
+    #     s.reset()
     # Show repeat visitors (to verify that the algorithm is effecient).
     if (repeat_visits):
         print("Repeats:", repeat_visits)
-
+    
     # Increment the week counter.
     week += 1
     repeat_visits = []

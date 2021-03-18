@@ -29,5 +29,3 @@ A work by: McDonald Berger and Igor Tzankoven
 
 ## Reflection
 *Write the reflection about getting the small groups in the minimum number of iterations, etc.*
-
-
