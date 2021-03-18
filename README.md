@@ -7,9 +7,9 @@ This script is created to assign weekly small-groups. The objective is to assign
 Our solution is a Python script which can read an input file of names, and will use a greedy algorithm to assign groups using the fewest possible weeks. It takes an input list of names, and a set group size to assign.
 
 ## Requirements
-# Python 3.9.2
-# newtorkx-2.5 [pip install networkx]
-# numpy-1.20.1 [pip install numpy]
+Python 3.9.2
+newtorkx-2.5 [pip install networkx]
+numpy-1.20.1 [pip install numpy]
 
 ## User Manual
 VIDEO EXPLANATION: https://youtu.be/UuVuuN3be6Q
@@ -25,7 +25,7 @@ RUNNING
 2. Run this script using 'python small-groups.py'.
 3. The script will prompt you for an input file (three examples are provided) and a group size.
 4. The output will be shown on the terminal.
->> You may instead direct it to a file using 'python small-groups.py > output.txt'.
+> You may instead direct it to a file using 'python small-groups.py > output.txt'.
 
 ## Reflection
 A brute force approach to this problem would require finding every possible group, and checking for the minimum set. This is obviously very unmanageable, therefore we will use a greedy algorithm that will find an efficient set of groups in a much shorter time.
