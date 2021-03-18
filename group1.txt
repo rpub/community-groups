@@ -1,5 +1,11 @@
-A, X
-C
-D, Y
-E, Z
-F
+Carl, Karl
+Mark
+Jessica, Jessicka
+Randel
+Petra
+Robin
+Garrett
+Pavrox, Dothal
+Camilla
+Kyle, Ferrin
+Mario, Luigi
