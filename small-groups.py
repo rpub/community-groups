@@ -1,8 +1,11 @@
 from os import name, system
 import networkx as nx
-
 import numpy as np
-# import matplotlib.pyplot as plt
+
+# Requirements.
+# Python 3.9.2
+# newtorkx-2.5 [pip install networkx]
+# numpy-1.20.1 [pip install numpy]
 
 # Person class with init, repr, and str.
 class Person:
@@ -38,9 +41,6 @@ class Person:
         self.host_count = 0
 
 # Defining variables.
-# group_size = 3;
-# filename = "group2.txt"
-
 G = nx.DiGraph()
 week = 1
 repeat_visits = []
@@ -60,6 +60,7 @@ with open(file_name) as file:
         G.add_node(P)
 
 group_size = int(input("What is the group size? (no more than half # of people)"))
+print("\n\n")
 
 # Build every edge of the complete graph.
 for s in G.nodes():
@@ -89,20 +90,13 @@ while G.number_of_edges() > 0:
                     v.hosts(s)
                     repeat_visits.append(s)
                     break
-        
-    with open('small.txt', 'w') as fileout:  
-        fileout.write(str(week))
-        for s in G.nodes():
-            if (s.hosting):
-                fileout.write("-".join(s.hosting[0], s.hosting[1:]))
-            s.reset()
 
-    # # Showing the hosts for this week.
-    # for s in G.nodes():
-    #     if (s.hosting):
-    #         print(str(s.hosting[0], s.hosting[1:]))
-    #     s.reset()
-    # Show repeat visitors (to verify that the algorithm is effecient).
+    # Showing the hosts for this week.
+    for s in G.nodes():
+        if (s.hosting):
+            print(s.hosting[0], s.hosting[1:])
+        s.reset()
+    # Show repeat visitors (to verify that the algorithm is efficient).
     if (repeat_visits):
         print("Repeats:", repeat_visits)
     

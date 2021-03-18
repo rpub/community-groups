@@ -1,21 +1,35 @@
 # Creating Community Small Groups
-A work by: Jonathan Hacker and Rami Isaac
+Created by: Jonathan Hacker and Rami Isaac
 
-*Write an introduction to your work*
+C:\Users\Jonathan Hacker\Desktop\School\Algorithm Design\community-groups-termproject-rami-hacker
 
 ## Description
-*Describe what your project is about and what language you used*
+This script is created to assign weekly small-groups. The objective is to assign groups such that every person has the opportunity to host every other person at their home. We want to accomplish this in the fewest possible weeks.
+
+Our solution is a Python script which can read an input file of names, and will use a greedy algorithm to assign groups using the fewest possible weeks. It takes an input list of names, and a set group size to assign.
 
 ## Requirements
-*The requirements of the program, i.e. Python 3.1, what libraries are needed*
+# Python 3.9.2
+# newtorkx-2.5 [pip install networkx]
+# numpy-1.20.1 [pip install numpy]
 
 ## User Manual
-*Once a person clones this into their computer how the person is supposed to run the program, add screenshots showing how your program works, also add here the link to the Youtube video showing the program running*
+VIDEO EXPLANATION: 
+
+INSTALLING
+1. Install Python 3.9.2.
+2. Install networkx with 'pip install networkx'.
+3. Install numpy with 'pip install numpy'.
+4. Clone this repository to a convenient location.
+
+RUNNING
+1. Open a command terminal, and cd to the location of the script.
+2. Run this script using 'python small-groups.py'.
+3. The script will prompt you for an input file (three examples are provided) and a group size.
+4. The output will be shown on the terminal.
+>> You may instead direct it to a file using 'python small-groups.py > output.txt'.
 
 ## Reflection
-<<<<<<< HEAD
-*Write the reflection about getting the small groups in the minimum number of iterations, etc.*
-=======
 A brute force approach to this problem would require finding every possible group, and checking for the minimum set. This is obviously very unmanageable, therefore we will use a greedy algorithm that will find an efficient set of groups in a much shorter time.
 
 THE ALGORITHM
@@ -36,4 +50,3 @@ CHALLENGES FACED
 One main challenge we encountered was the difficulty of learning both a new language (Python) and a new library at the same time. We were initially using a library called igraph, but ran into a lot of issues with obscure syntax and confusing documentation. Midway through the assignment we actually switched libraries entirely to NetworkX instead and had a much easier time with that. By spending more time researching, we eventually were able to implement a solution.
 
 Furthermore, there is a challenge in collaborating with a team member. We were able to benefit from working in a team, however, by ensuring regular communication, and dividing work so that each of us was doing the part we felt most comfortable doing.
->>>>>>> e092ce9280962cffbd15a6d343f07a7bc2dd5ab0

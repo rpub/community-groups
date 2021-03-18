@@ -1,0 +1,526 @@
+Please enter your plaintext file with smallgroup names: What is the group size? (no more than half # of people)Week 1
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'July', 'Karl + Carla']
+Kathy ['Hector', 'Bert', 'Homer']
+Joan ['Jean', 'Geordi', 'Scott']
+Yi-Ran ['Ivan', 'Abdul', 'Italo']
+
+
+Week 2
+George ['John + Ann', 'Peter + Melissa']
+Jenny ['Lisa', 'Alma', 'Jerry']
+Albert ['James', 'Jack', 'Jill']
+July ['Jaimie', 'Karl + Carla']
+Bert ['Hector', 'Kathy', 'Homer']
+Geordi ['Jean', 'Joan', 'Scott']
+Abdul ['Ivan', 'Yi-Ran', 'Italo']
+
+
+Week 3
+Lisa ['John + Ann', 'Peter + Melissa']
+Jenny ['George', 'James', 'Albert']
+Jerry ['Alma', 'Jack', 'Jill']
+Karl + Carla ['Jaimie', 'July']
+Homer ['Hector', 'Kathy', 'Bert']
+Scott ['Jean', 'Joan', 'Geordi']
+Italo ['Ivan', 'Yi-Ran', 'Abdul']
+
+
+Week 4
+Jenny ['John + Ann', 'Peter + Melissa']
+Alma ['George', 'Lisa', 'Jerry']
+Jack ['James', 'Albert', 'Jill']
+Hector ['Jaimie', 'July', 'Karl + Carla']
+Jean ['Kathy', 'Bert', 'Homer']
+Ivan ['Joan', 'Geordi', 'Scott']
+Abdul ['Yi-Ran', 'Italo']
+Repeats: ['Yi-Ran', 'Italo']
+
+
+Week 5
+Alma ['John + Ann', 'Peter + Melissa']
+Jerry ['George', 'Lisa', 'Jenny']
+Jill ['James', 'Albert', 'Jack']
+Kathy ['Jaimie', 'July', 'Karl + Carla']
+Jean ['Hector', 'Geordi', 'Scott']
+Joan ['Bert', 'Homer', 'Ivan']
+Abdul ['Yi-Ran', 'Italo']
+Repeats: ['Yi-Ran', 'Italo']
+
+
+Week 6
+Alma ['Jenny', 'Albert', 'Jack']
+Jerry ['John + Ann', 'Peter + Melissa']
+James ['George', 'Lisa', 'Jill']
+Bert ['Jaimie', 'July', 'Karl + Carla']
+Joan ['Hector', 'Kathy', 'Abdul']
+Geordi ['Homer', 'Italo']
+Ivan ['Jean']
+Yi-Ran ['Scott']
+
+
+Week 7
+James ['John + Ann', 'Peter + Melissa']
+Albert ['George', 'Lisa', 'Jenny']
+Jack ['Alma', 'Jerry', 'Jaimie']
+July ['Jill', 'Hector', 'Kathy']
+Homer ['Karl + Carla', 'Jean']
+Geordi ['Bert', 'Ivan', 'Italo']
+Yi-Ran ['Joan']
+Abdul ['Scott']
+Repeats: ['Italo']
+
+
+Week 8
+James ['Jenny', 'Alma', 'Jaimie']
+Albert ['John + Ann', 'Peter + Melissa']
+Jack ['George', 'Lisa', 'July']
+Jill ['Jerry', 'Karl + Carla']
+Geordi ['Hector', 'Kathy', 'Italo']
+Scott ['Bert', 'Homer', 'Ivan']
+Yi-Ran ['Jean']
+Abdul ['Joan']
+Repeats: ['Italo']
+
+
+Week 9
+Albert ['Alma', 'Jerry', 'July']
+Jack ['John + Ann', 'Peter + Melissa']
+Jill ['George', 'Lisa', 'Jenny']
+Jaimie ['James', 'Hector', 'Kathy']
+Jean ['Karl + Carla', 'Joan']
+Ivan ['Bert', 'Homer', 'Abdul']
+Yi-Ran ['Geordi']
+Italo ['Scott']
+
+
+Week 10
+Jack ['Jenny', 'Karl + Carla']
+Jill ['John + Ann', 'Peter + Melissa']
+Jaimie ['George', 'Lisa', 'Alma']
+July ['Jerry', 'James', 'Albert']
+Scott ['Hector', 'Kathy', 'Ivan']
+Yi-Ran ['Bert', 'Homer']
+Abdul ['Jean', 'Geordi']
+Italo ['Joan']
+Repeats: ['Ivan']
+
+
+Week 11
+Jill ['Alma', 'Kathy', 'Bert']
+Jaimie ['John + Ann', 'Peter + Melissa']
+July ['George', 'Lisa', 'Jenny']
+Karl + Carla ['Jerry', 'James']
+Hector ['Albert', 'Jack', 'Homer']
+Joan ['Yi-Ran', 'Ivan']
+Scott ['Abdul']
+Italo ['Jean', 'Geordi']
+Repeats: ['Ivan']
+
+
+Week 12
+Jaimie ['Jenny', 'Jerry', 'Albert']
+July ['John + Ann', 'Peter + Melissa']
+Karl + Carla ['George', 'Lisa']
+Hector ['Alma', 'James', 'Jill']
+Kathy ['Jack', 'Jean', 'Joan']
+Geordi ['Yi-Ran', 'Ivan']
+Scott ['Italo']
+Abdul ['Bert', 'Homer']
+Repeats: ['Ivan']
+
+
+Week 13
+Jaimie ['Jack', 'Homer', 'Jean']
+July ['Alma', 'Joan', 'Geordi']
+Karl + Carla ['John + Ann']
+Hector ['Peter + Melissa', 'George']
+Kathy ['Lisa', 'Jenny', 'Jerry']
+Bert ['James', 'Albert', 'Jill']
+Scott ['Yi-Ran', 'Abdul']
+Ivan ['Italo']
+Repeats: ['Abdul']
+
+
+Week 14
+July ['Jack', 'Jean', 'Scott']
+Karl + Carla ['Peter + Melissa']
+Hector ['John + Ann', 'Lisa']
+Kathy ['George', 'Alma', 'James']
+Bert ['Jenny', 'Jerry', 'Joan']
+Homer ['Albert', 'Jill', 'Jaimie']
+Geordi ['Abdul', 'Italo']
+Ivan ['Yi-Ran']
+Repeats: ['Italo']
+
+
+Week 15
+Karl + Carla ['Jenny', 'Alma']
+Hector ['Jerry', 'Joan', 'Geordi']
+Kathy ['John + Ann', 'Peter + Melissa']
+Bert ['George', 'Lisa', 'Jack']
+Homer ['James', 'July', 'Scott']
+Jean ['Albert', 'Jill', 'Jaimie']
+Yi-Ran ['Ivan', 'Abdul', 'Italo']
+Repeats: ['Ivan', 'Abdul', 'Italo']
+
+
+Week 16
+Karl + Carla ['Albert', 'Jack']
+Hector ['Jenny', 'Scott', 'Ivan']
+Kathy ['Jill', 'Geordi', 'Yi-Ran']
+Bert ['John + Ann', 'Peter + Melissa']
+Homer ['George', 'Lisa', 'Alma']
+Jean ['Jerry', 'James', 'July']
+Joan ['Jaimie', 'Italo', 'Abdul']
+Repeats: ['Abdul']
+
+
+Week 17
+Karl + Carla ['Jill', 'Hector']
+Kathy ['Albert', 'Scott', 'Ivan']
+Bert ['Alma', 'Yi-Ran', 'Abdul']
+Homer ['John + Ann', 'Peter + Melissa']
+Jean ['George', 'Lisa', 'Jenny']
+Joan ['Jerry', 'James', 'Jack']
+Geordi ['Jaimie', 'July', 'Italo']
+Repeats: ['Italo']
+
+
+Week 18
+Homer ['Jenny', 'Jerry', 'Jack']
+Jean ['John + Ann', 'Peter + Melissa']
+Joan ['George', 'Lisa', 'Alma']
+Geordi ['James', 'Albert', 'Jill']
+Scott ['Jaimie', 'July', 'Karl + Carla']
+Ivan ['Hector', 'Kathy', 'Yi-Ran']
+Italo ['Bert', 'Abdul']
+Repeats: ['Yi-Ran', 'Abdul']
+
+
+Week 19
+Jean ['Alma', 'Jack', 'Bert']
+Joan ['John + Ann', 'Peter + Melissa']
+Geordi ['George', 'Lisa', 'Jenny']
+Scott ['Jerry', 'James', 'Albert']
+Ivan ['Jill', 'Jaimie', 'July']
+Yi-Ran ['Karl + Carla', 'Hector']
+Abdul ['Kathy']
+Italo ['Homer']
+Repeats: ['Bert']
+
+
+Week 20
+Bert ['Jean', 'Italo', 'Homer']
+Joan ['Jenny', 'Albert', 'Jill']
+Geordi ['John + Ann', 'Peter + Melissa']
+Scott ['George', 'Lisa', 'Alma']
+Ivan ['Jerry', 'James', 'Jack']
+Yi-Ran ['Jaimie', 'July', 'Kathy']
+Abdul ['Karl + Carla', 'Hector']
+Repeats: ['Homer']
+
+
+Week 21
+Homer ['Bert', 'Jean']
+Joan ['July', 'Karl + Carla']
+Geordi ['Alma', 'Jerry', 'Jack']
+Scott ['John + Ann', 'Peter + Melissa']
+Ivan ['George', 'Lisa', 'Jenny']
+Yi-Ran ['James', 'Albert', 'Jill']
+Abdul ['Jaimie']
+Italo ['Hector', 'Kathy']
+Repeats: ['Bert', 'Jean']
+
+
+Week 22
+Hector ['Kathy', 'Bert', 'Jean']
+Homer ['Joan']
+Geordi ['Karl + Carla']
+Scott ['Jenny', 'Jack', 'Jill']
+Ivan ['John + Ann', 'Peter + Melissa']
+Yi-Ran ['George', 'Lisa', 'Alma']
+Abdul ['Jerry', 'James', 'Albert']
+Italo ['Jaimie', 'July']
+
+
+Week 23
+Jill ['Jaimie', 'July', 'Hector']
+Bert ['Geordi', 'Scott', 'Kathy']
+Jean ['Homer', 'Joan']
+Ivan ['Alma', 'Albert', 'Karl + Carla']
+Yi-Ran ['John + Ann', 'Peter + Melissa']
+Abdul ['George', 'Lisa', 'Jenny']
+Italo ['Jerry', 'James', 'Jack']
+Repeats: ['Kathy', 'Homer', 'Joan']
+
+
+Week 24
+James ['July', 'Karl + Carla']
+Albert ['Jaimie', 'Hector', 'Kathy']
+Jill ['Homer', 'Jean', 'Joan']
+Bert ['Ivan', 'Geordi', 'Scott']
+Yi-Ran ['Jenny', 'Jerry', 'Jack']
+Abdul ['John + Ann', 'Peter + Melissa']
+Italo ['George', 'Lisa', 'Alma']
+Repeats: ['Geordi', 'Scott']
+
+
+Week 25
+George ['Lisa', 'Jenny', 'Alma']
+Jerry ['James', 'Albert', 'Jaimie']
+Karl + Carla ['Kathy', 'Bert']
+Hector ['Yi-Ran', 'Jean', 'Joan']
+Homer ['Geordi', 'Ivan', 'Scott']
+Abdul ['Jack', 'Jill', 'July']
+Italo ['John + Ann', 'Peter + Melissa']
+Repeats: ['Jean', 'Joan', 'Scott']
+
+
+Week 26
+John + Ann ['Peter + Melissa']
+George ['Jerry', 'James', 'Albert']
+Lisa ['Jack', 'Jill', 'Jaimie']
+July ['Bert', 'Homer', 'Ivan']
+Kathy ['Hector', 'Joan', 'Geordi']
+Jean ['Yi-Ran', 'Scott']
+Abdul ['Alma']
+Italo ['Jenny', 'Karl + Carla']
+Repeats: ['Hector', 'Joan', 'Geordi', 'Scott']
+
+
+Week 27
+John + Ann ['George', 'Lisa']
+Peter + Melissa ['Jenny', 'Alma']
+Jerry ['July', 'Karl + Carla']
+James ['Hector', 'Kathy', 'Bert']
+Jack ['Homer', 'Jean', 'Joan']
+Jaimie ['Geordi', 'Scott', 'Ivan']
+Abdul ['Yi-Ran']
+Italo ['Albert', 'Jill']
+Repeats: ['Yi-Ran']
+
+
+Week 28
+John + Ann ['Jenny', 'Alma']
+Peter + Melissa ['George', 'Lisa']
+Jerry ['Hector', 'Kathy', 'Bert']
+James ['Homer', 'Jean', 'Joan']
+Albert ['Karl + Carla', 'Geordi']
+Jack ['Scott', 'Ivan', 'Yi-Ran']
+Jill ['Abdul', 'Italo', 'Jaimie']
+Repeats: ['Jaimie']
+
+
+Week 29
+John + Ann ['Jerry', 'James']
+Peter + Melissa ['Albert', 'Jack']
+George ['Jill', 'Jaimie', 'July']
+Lisa ['Karl + Carla', 'Hector']
+Jenny ['Kathy', 'Bert', 'Homer']
+Alma ['Jean', 'Joan', 'Geordi']
+Ivan ['Scott', 'Yi-Ran', 'Abdul']
+Repeats: ['Scott', 'Yi-Ran', 'Abdul']
+
+
+Week 30
+John + Ann ['Albert', 'Jack']
+Peter + Melissa ['Jerry', 'James']
+George ['Karl + Carla', 'Hector']
+Lisa ['July', 'Kathy', 'Bert']
+Jenny ['Jill', 'Jaimie', 'Jean']
+Alma ['Homer', 'Scott', 'Ivan']
+Geordi ['Joan', 'Yi-Ran', 'Abdul']
+Repeats: ['Joan', 'Yi-Ran', 'Abdul']
+
+
+Week 31
+John + Ann ['Jill', 'Jaimie']
+Peter + Melissa ['July', 'Karl + Carla']
+George ['Jack', 'Kathy', 'Bert']
+Lisa ['Jerry', 'James', 'Albert']
+Jenny ['Hector', 'Joan', 'Geordi']
+Alma ['Yi-Ran', 'Abdul', 'Italo']
+Jean ['Ivan', 'Homer', 'Scott']
+Repeats: ['Homer', 'Scott']
+
+
+Week 32
+John + Ann ['July', 'Karl + Carla']
+Peter + Melissa ['Jill', 'Jaimie']
+George ['Homer', 'Jean', 'Joan']
+Lisa ['Geordi', 'Scott', 'Ivan']
+Jenny ['Jack', 'Yi-Ran', 'Abdul']
+Alma ['James', 'Hector', 'Kathy']
+Jerry ['Italo']
+Albert ['Bert']
+
+
+Week 33
+John + Ann ['Hector', 'Kathy']
+Peter + Melissa ['Bert', 'Homer']
+George ['Geordi', 'Scott', 'Ivan']
+Lisa ['Jean', 'Joan', 'Yi-Ran']
+Jenny ['July', 'Karl + Carla']
+Alma ['Jill', 'Jaimie', 'Albert']
+Jerry ['Abdul', 'Jack']
+James ['Italo']
+Repeats: ['Albert', 'Jack']
+
+
+Week 34
+John + Ann ['Bert', 'Homer']
+Peter + Melissa ['Hector', 'Kathy']
+George ['Yi-Ran', 'Abdul', 'Italo']
+Jenny ['Scott', 'Ivan', 'Lisa']
+Alma ['July', 'Karl + Carla']
+Jerry ['Jean', 'Joan', 'Geordi']
+Albert ['James', 'Jack', 'Jill']
+Repeats: ['Lisa', 'James', 'Jack', 'Jill']
+
+
+Week 35
+John + Ann ['Jean', 'Joan']
+Peter + Melissa ['Geordi', 'Scott']
+Lisa ['Homer', 'Abdul', 'Italo']
+Jenny ['George', 'James', 'Albert']
+Alma ['Bert', 'Jill', 'Jaimie']
+Jerry ['Ivan', 'Yi-Ran', 'July']
+Jack ['Hector', 'Kathy', 'Karl + Carla']
+Repeats: ['George', 'James', 'Albert', 'Jill', 'Jaimie', 'July', 'Karl + Carla']
+
+
+Week 36
+John + Ann ['Geordi', 'Scott']
+Peter + Melissa ['Jean', 'Joan']
+Lisa ['George', 'Alma', 'Albert']
+Jenny ['Italo', 'Jill', 'Jaimie']
+Jerry ['Homer', 'July', 'Karl + Carla']
+James ['Ivan', 'Yi-Ran', 'Abdul']
+Jack ['Bert', 'Hector', 'Kathy']
+Repeats: ['George', 'Alma', 'Albert', 'Jill', 'Jaimie', 'July', 'Karl + Carla', 'Hector', 'Kathy']
+
+
+Week 37
+John + Ann ['Ivan', 'Yi-Ran']
+Peter + Melissa ['Abdul', 'Italo']
+Lisa ['George', 'Jenny', 'Alma']
+Jerry ['Scott', 'Jack', 'Jill']
+James ['Geordi', 'July', 'Karl + Carla']
+Albert ['Homer', 'Jean', 'Joan']
+Jaimie ['Bert', 'Hector', 'Kathy']
+Repeats: ['George', 'Jenny', 'Alma', 'Jack', 'Jill', 'July', 'Karl + Carla', 'Hector', 'Kathy']
+
+
+Week 38
+John + Ann ['Abdul', 'Italo']
+Peter + Melissa ['Ivan', 'Yi-Ran']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Scott', 'Jerry', 'Albert']
+Jack ['Geordi', 'Jill', 'July']
+Jaimie ['Joan', 'Hector', 'Kathy']
+Karl + Carla ['Homer', 'Jean']
+Repeats: ['George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jill', 'July', 'Hector', 'Kathy']
+
+
+Week 39
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Jaimie', 'July']
+Albert ['Scott', 'Ivan', 'Yi-Ran']
+Jack ['Abdul', 'Italo', 'Hector']
+Jill ['Geordi', 'Kathy', 'Bert']
+Karl + Carla ['Joan', 'Homer']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Jaimie', 'July', 'Hector', 'Kathy', 'Bert', 'Homer']
+
+
+Week 40
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Jack', 'Jaimie']
+Albert ['Abdul', 'Italo', 'July']
+Jill ['Scott', 'Ivan', 'Yi-Ran']
+Karl + Carla ['Geordi', 'Hector']
+Bert ['Kathy', 'Homer', 'Jean']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Jack', 'Jaimie', 'July', 'Hector', 'Kathy', 'Homer', 'Jean']
+
+
+Week 41
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Yi-Ran', 'Abdul', 'Italo']
+July ['Jill', 'Hector', 'Kathy']
+Karl + Carla ['Scott', 'Ivan']
+Homer ['Bert', 'Jean', 'Joan']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'Hector', 'Kathy', 'Bert', 'Jean', 'Joan']
+
+
+Week 42
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'Karl + Carla']
+July ['Yi-Ran', 'Abdul', 'Italo']
+Kathy ['Hector', 'Bert', 'Homer']
+Joan ['Jean', 'Geordi', 'Scott']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'Karl + Carla', 'Hector', 'Bert', 'Homer', 'Jean', 'Geordi', 'Scott']
+
+
+Week 43
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'July', 'Kathy']
+Karl + Carla ['Yi-Ran', 'Abdul']
+Hector ['Italo', 'Bert', 'Homer']
+Joan ['Jean', 'Geordi', 'Scott']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'July', 'Kathy', 'Bert', 'Homer', 'Jean', 'Geordi', 'Scott']
+
+
+Week 44
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'July', 'Kathy']
+Karl + Carla ['Italo', 'Bert']
+Hector ['Abdul', 'Jean', 'Joan']
+Homer ['Yi-Ran', 'Geordi', 'Scott']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'July', 'Kathy', 'Bert', 'Jean', 'Joan', 'Geordi', 'Scott']
+
+
+Week 45
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'July', 'Karl + Carla']
+Kathy ['Abdul', 'Italo', 'Hector']
+Homer ['Bert', 'Jean', 'Joan']
+Scott ['Geordi', 'Ivan', 'Yi-Ran']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'July', 'Karl + Carla', 'Hector', 'Bert', 'Jean', 'Joan', 'Geordi', 'Ivan', 'Yi-Ran']
+
+
+Week 46
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'July', 'Karl + Carla']
+Kathy ['Hector', 'Bert', 'Jean']
+Homer ['Abdul', 'Italo', 'Joan']
+Scott ['Geordi', 'Ivan', 'Yi-Ran']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'July', 'Karl + Carla', 'Hector', 'Bert', 'Jean', 'Joan', 'Geordi', 'Ivan', 'Yi-Ran']
+
+
+Week 47
+Peter + Melissa ['John + Ann']
+Lisa ['George', 'Jenny', 'Alma']
+James ['Jerry', 'Albert', 'Jack']
+Jaimie ['Jill', 'July', 'Karl + Carla']
+Kathy ['Hector', 'Bert', 'Homer']
+Jean ['Abdul', 'Italo', 'Joan']
+Scott ['Geordi', 'Ivan', 'Yi-Ran']
+Repeats: ['John + Ann', 'George', 'Jenny', 'Alma', 'Jerry', 'Albert', 'Jack', 'Jill', 'July', 'Karl + Carla', 'Hector', 'Bert', 'Homer', 'Joan', 'Geordi', 'Ivan', 'Yi-Ran']
+
+
