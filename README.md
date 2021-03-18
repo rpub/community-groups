@@ -7,9 +7,9 @@ This script is created to assign weekly small-groups. The objective is to assign
 Our solution is a Python script which can read an input file of names, and will use a greedy algorithm to assign groups using the fewest possible weeks. It takes an input list of names, and a set group size to assign.
 
 ## Requirements
-Python 3.9.2
-newtorkx-2.5 [pip install networkx]
-numpy-1.20.1 [pip install numpy]
+1. Python 3.9.2
+2. newtorkx-2.5 [pip install networkx]
+3. numpy-1.20.1 [pip install numpy]
 
 ## User Manual
 VIDEO EXPLANATION: https://youtu.be/UuVuuN3be6Q
@@ -40,11 +40,13 @@ There are two additional complications:
 2. Repeat visitors (who have no valid household to visit, and are not hosting themselves) must be retroactively assigned to groups. They are not part of the optimal solution, but they still need groups to fulfill the need of the group lists.
 
 TIME COMPLEXITY ANALYSIS
+
 The time complexity of this algorithm is O(N^2) for each week it runs, for it must compare each node to every other node to determine if it is able to visit.
 
 Our actual implementation is slightly different. We optimized it somewhat by doing the inverse of the above algorithm. Instead of adding connections as visits are made, we started with a complete graph and removed connections as visits occur. Thus each node only needs to check nodes that are within its own adjacency list. This still has an upper bound of O(N^2) but some weeks may take only O(N) in the case where each node finds a host immediately. But unfortunately, the repeat visitors phase still takes O(N^2) so while our final solution is more efficient on average, the time complexity is the same.
 
 CHALLENGES FACED
+
 One main challenge we encountered was the difficulty of learning both a new language (Python) and a new library at the same time. We were initially using a library called igraph, but ran into a lot of issues with obscure syntax and confusing documentation. Midway through the assignment we actually switched libraries entirely to NetworkX instead and had a much easier time with that. By spending more time researching, we eventually were able to implement a solution.
 
 Furthermore, there is a challenge in collaborating with a team member. We were able to benefit from working in a team, however, by ensuring regular communication, and dividing work so that each of us was doing the part we felt most comfortable doing.
