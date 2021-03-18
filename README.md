@@ -1,8 +1,6 @@
 # Creating Community Small Groups
 Created by: Jonathan Hacker and Rami Isaac
 
-C:\Users\Jonathan Hacker\Desktop\School\Algorithm Design\community-groups-termproject-rami-hacker
-
 ## Description
 This script is created to assign weekly small-groups. The objective is to assign groups such that every person has the opportunity to host every other person at their home. We want to accomplish this in the fewest possible weeks.
 
@@ -14,7 +12,7 @@ Our solution is a Python script which can read an input file of names, and will 
 # numpy-1.20.1 [pip install numpy]
 
 ## User Manual
-VIDEO EXPLANATION: 
+VIDEO EXPLANATION: https://youtu.be/UuVuuN3be6Q
 
 INSTALLING
 1. Install Python 3.9.2.
